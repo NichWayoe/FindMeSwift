@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Bolts/Tasks (1.9.1)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - Parse (1.19.0):
+    - Parse/Core (= 1.19.0)
+  - Parse/Core (1.19.0):
+    - Bolts/Tasks (= 1.9.1)
+  - Parse/UI (1.19.0):
+    - Parse/Core
+
+DEPENDENCIES:
+  - AFNetworking
+  - GoogleMaps
+  - Parse
+  - Parse/UI
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Bolts
+    - GoogleMaps
+    - Parse
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  Parse: 0fb5c7cc7ee5900f2434e24607d0496155b8d04f
+
+PODFILE CHECKSUM: e8255a906b9c460def6e0424f99ce1e0b8278a2a
+
+COCOAPODS: 1.9.3

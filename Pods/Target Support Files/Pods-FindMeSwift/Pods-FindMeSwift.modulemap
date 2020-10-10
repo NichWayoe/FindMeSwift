@@ -1,0 +1,6 @@
+framework module Pods_FindMeSwift {
+  umbrella header "Pods-FindMeSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
