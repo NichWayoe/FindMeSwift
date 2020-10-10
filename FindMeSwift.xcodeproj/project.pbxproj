@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA55B5F253251AC003AD51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B5E253251AC003AD51F /* AppDelegate.swift */; };
+		2BA55B61253251AC003AD51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B60253251AC003AD51F /* SceneDelegate.swift */; };
+		2BA55B63253251AC003AD51F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B62253251AC003AD51F /* ViewController.swift */; };
+		2BA55B66253251AC003AD51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA55B64253251AC003AD51F /* Main.storyboard */; };
+		2BA55B68253251B1003AD51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA55B67253251B1003AD51F /* Assets.xcassets */; };
+		2BA55B6B253251B1003AD51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA55B69253251B1003AD51F /* LaunchScreen.storyboard */; };
+		2BA55B76253251B1003AD51F /* FindMeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B75253251B1003AD51F /* FindMeSwiftTests.swift */; };
+		2BA55B81253251B1003AD51F /* FindMeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B80253251B1003AD51F /* FindMeSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA55B72253251B1003AD51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA55B53253251AC003AD51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA55B5A253251AC003AD51F;
+			remoteInfo = FindMeSwift;
+		};
+		2BA55B7D253251B1003AD51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA55B53253251AC003AD51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA55B5A253251AC003AD51F;
+			remoteInfo = FindMeSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA55B5B253251AC003AD51F /* FindMeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA55B5E253251AC003AD51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BA55B60253251AC003AD51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BA55B62253251AC003AD51F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BA55B65253251AC003AD51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA55B67253251B1003AD51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BA55B6A253251B1003AD51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA55B6C253251B1003AD51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA55B71253251B1003AD51F /* FindMeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA55B75253251B1003AD51F /* FindMeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeSwiftTests.swift; sourceTree = "<group>"; };
+		2BA55B77253251B1003AD51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA55B7C253251B1003AD51F /* FindMeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA55B80253251B1003AD51F /* FindMeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeSwiftUITests.swift; sourceTree = "<group>"; };
+		2BA55B82253251B1003AD51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA55B58253251AC003AD51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA55B6E253251B1003AD51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA55B79253251B1003AD51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA55B52253251AC003AD51F = {
+			isa = PBXGroup;
+			children = (
+				2BA55B5D253251AC003AD51F /* FindMeSwift */,
+				2BA55B74253251B1003AD51F /* FindMeSwiftTests */,
+				2BA55B7F253251B1003AD51F /* FindMeSwiftUITests */,
+				2BA55B5C253251AC003AD51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA55B5C253251AC003AD51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA55B5B253251AC003AD51F /* FindMeSwift.app */,
+				2BA55B71253251B1003AD51F /* FindMeSwiftTests.xctest */,
+				2BA55B7C253251B1003AD51F /* FindMeSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA55B5D253251AC003AD51F /* FindMeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2BA55B5E253251AC003AD51F /* AppDelegate.swift */,
+				2BA55B60253251AC003AD51F /* SceneDelegate.swift */,
+				2BA55B62253251AC003AD51F /* ViewController.swift */,
+				2BA55B64253251AC003AD51F /* Main.storyboard */,
+				2BA55B67253251B1003AD51F /* Assets.xcassets */,
+				2BA55B69253251B1003AD51F /* LaunchScreen.storyboard */,
+				2BA55B6C253251B1003AD51F /* Info.plist */,
+			);
+			path = FindMeSwift;
+			sourceTree = "<group>";
+		};
+		2BA55B74253251B1003AD51F /* FindMeSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA55B75253251B1003AD51F /* FindMeSwiftTests.swift */,
+				2BA55B77253251B1003AD51F /* Info.plist */,
+			);
+			path = FindMeSwiftTests;
+			sourceTree = "<group>";
+		};
+		2BA55B7F253251B1003AD51F /* FindMeSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA55B80253251B1003AD51F /* FindMeSwiftUITests.swift */,
+				2BA55B82253251B1003AD51F /* Info.plist */,
+			);
+			path = FindMeSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA55B5A253251AC003AD51F /* FindMeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA55B85253251B1003AD51F /* Build configuration list for PBXNativeTarget "FindMeSwift" */;
+			buildPhases = (
+				2BA55B57253251AC003AD51F /* Sources */,
+				2BA55B58253251AC003AD51F /* Frameworks */,
+				2BA55B59253251AC003AD51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMeSwift;
+			productName = FindMeSwift;
+			productReference = 2BA55B5B253251AC003AD51F /* FindMeSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA55B70253251B1003AD51F /* FindMeSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA55B88253251B1003AD51F /* Build configuration list for PBXNativeTarget "FindMeSwiftTests" */;
+			buildPhases = (
+				2BA55B6D253251B1003AD51F /* Sources */,
+				2BA55B6E253251B1003AD51F /* Frameworks */,
+				2BA55B6F253251B1003AD51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA55B73253251B1003AD51F /* PBXTargetDependency */,
+			);
+			name = FindMeSwiftTests;
+			productName = FindMeSwiftTests;
+			productReference = 2BA55B71253251B1003AD51F /* FindMeSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BA55B7B253251B1003AD51F /* FindMeSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA55B8B253251B1003AD51F /* Build configuration list for PBXNativeTarget "FindMeSwiftUITests" */;
+			buildPhases = (
+				2BA55B78253251B1003AD51F /* Sources */,
+				2BA55B79253251B1003AD51F /* Frameworks */,
+				2BA55B7A253251B1003AD51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA55B7E253251B1003AD51F /* PBXTargetDependency */,
+			);
+			name = FindMeSwiftUITests;
+			productName = FindMeSwiftUITests;
+			productReference = 2BA55B7C253251B1003AD51F /* FindMeSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA55B53253251AC003AD51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2BA55B5A253251AC003AD51F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2BA55B70253251B1003AD51F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2BA55B5A253251AC003AD51F;
+					};
+					2BA55B7B253251B1003AD51F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2BA55B5A253251AC003AD51F;
+					};
+				};
+			};
+			buildConfigurationList = 2BA55B56253251AC003AD51F /* Build configuration list for PBXProject "FindMeSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA55B52253251AC003AD51F;
+			productRefGroup = 2BA55B5C253251AC003AD51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA55B5A253251AC003AD51F /* FindMeSwift */,
+				2BA55B70253251B1003AD51F /* FindMeSwiftTests */,
+				2BA55B7B253251B1003AD51F /* FindMeSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA55B59253251AC003AD51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA55B6B253251B1003AD51F /* LaunchScreen.storyboard in Resources */,
+				2BA55B68253251B1003AD51F /* Assets.xcassets in Resources */,
+				2BA55B66253251AC003AD51F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA55B6F253251B1003AD51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA55B7A253251B1003AD51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA55B57253251AC003AD51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA55B63253251AC003AD51F /* ViewController.swift in Sources */,
+				2BA55B5F253251AC003AD51F /* AppDelegate.swift in Sources */,
+				2BA55B61253251AC003AD51F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA55B6D253251B1003AD51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA55B76253251B1003AD51F /* FindMeSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA55B78253251B1003AD51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA55B81253251B1003AD51F /* FindMeSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA55B73253251B1003AD51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA55B5A253251AC003AD51F /* FindMeSwift */;
+			targetProxy = 2BA55B72253251B1003AD51F /* PBXContainerItemProxy */;
+		};
+		2BA55B7E253251B1003AD51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA55B5A253251AC003AD51F /* FindMeSwift */;
+			targetProxy = 2BA55B7D253251B1003AD51F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA55B64253251AC003AD51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA55B65253251AC003AD51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA55B69253251B1003AD51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA55B6A253251B1003AD51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA55B83253251B1003AD51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BA55B84253251B1003AD51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA55B86253251B1003AD51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4LS79J8BG;
+				INFOPLIST_FILE = FindMeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwayoe.FindMeSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BA55B87253251B1003AD51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4LS79J8BG;
+				INFOPLIST_FILE = FindMeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwayoe.FindMeSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BA55B89253251B1003AD51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4LS79J8BG;
+				INFOPLIST_FILE = FindMeSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwayoe.FindMeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMeSwift.app/FindMeSwift";
+			};
+			name = Debug;
+		};
+		2BA55B8A253251B1003AD51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4LS79J8BG;
+				INFOPLIST_FILE = FindMeSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwayoe.FindMeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMeSwift.app/FindMeSwift";
+			};
+			name = Release;
+		};
+		2BA55B8C253251B1003AD51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4LS79J8BG;
+				INFOPLIST_FILE = FindMeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwayoe.FindMeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMeSwift;
+			};
+			name = Debug;
+		};
+		2BA55B8D253251B1003AD51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4LS79J8BG;
+				INFOPLIST_FILE = FindMeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwayoe.FindMeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMeSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA55B56253251AC003AD51F /* Build configuration list for PBXProject "FindMeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA55B83253251B1003AD51F /* Debug */,
+				2BA55B84253251B1003AD51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA55B85253251B1003AD51F /* Build configuration list for PBXNativeTarget "FindMeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA55B86253251B1003AD51F /* Debug */,
+				2BA55B87253251B1003AD51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA55B88253251B1003AD51F /* Build configuration list for PBXNativeTarget "FindMeSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA55B89253251B1003AD51F /* Debug */,
+				2BA55B8A253251B1003AD51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA55B8B253251B1003AD51F /* Build configuration list for PBXNativeTarget "FindMeSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA55B8C253251B1003AD51F /* Debug */,
+				2BA55B8D253251B1003AD51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA55B53253251AC003AD51F /* Project object */;
+}
