@@ -6,6 +6,8 @@
 //
  
 import UIKit
+import Parse
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

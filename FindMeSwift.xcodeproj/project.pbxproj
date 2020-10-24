@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		2BA55B6B253251B1003AD51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA55B69253251B1003AD51F /* LaunchScreen.storyboard */; };
 		2BA55B76253251B1003AD51F /* FindMeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B75253251B1003AD51F /* FindMeSwiftTests.swift */; };
 		2BA55B81253251B1003AD51F /* FindMeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B80253251B1003AD51F /* FindMeSwiftUITests.swift */; };
+		2BA55BE7253BAF2F003AD51F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55BE6253BAF2F003AD51F /* LoginViewController.swift */; };
 		94ABB325EDFE4AF1A31AA35C /* Pods_FindMeSwift_FindMeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B22EFC60A7E98FDF7959202 /* Pods_FindMeSwift_FindMeSwiftUITests.framework */; };
 		97AC1B819AE542C2EC3158A0 /* Pods_FindMeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96E2717DA7070D908B145EE /* Pods_FindMeSwiftTests.framework */; };
 		B76799E8387A6C6A428DF6FD /* Pods_FindMeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5272536AE9B997B14818D8 /* Pods_FindMeSwift.framework */; };
@@ -52,6 +53,7 @@
 		2BA55B7C253251B1003AD51F /* FindMeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA55B80253251B1003AD51F /* FindMeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeSwiftUITests.swift; sourceTree = "<group>"; };
 		2BA55B82253251B1003AD51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA55BE6253BAF2F003AD51F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5DCEF1544917BCCC6027189A /* Pods-FindMeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMeSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-FindMeSwiftTests/Pods-FindMeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B22EFC60A7E98FDF7959202 /* Pods_FindMeSwift_FindMeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMeSwift_FindMeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96E2717DA7070D908B145EE /* Pods_FindMeSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMeSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 		2BA55B91253251EB003AD51F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2BA55BE6253BAF2F003AD51F /* LoginViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -160,7 +163,6 @@
 				5DCEF1544917BCCC6027189A /* Pods-FindMeSwiftTests.debug.xcconfig */,
 				DFF325B7ACFA1186AB66FA0E /* Pods-FindMeSwiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -448,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA55BE7253BAF2F003AD51F /* LoginViewController.swift in Sources */,
 				2BA55B5F253251AC003AD51F /* AppDelegate.swift in Sources */,
 				2BA55B61253251AC003AD51F /* SceneDelegate.swift in Sources */,
 			);
