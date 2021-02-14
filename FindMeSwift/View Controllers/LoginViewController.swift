@@ -19,20 +19,43 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         self.logInButton.isEnabled = false
         self.registerForKeyboardNotifications()
+        self.registerForTextFieldNotifications()
     }
     
-    @IBAction func onTapSignUp(_ sender: Any) {
+    @IBAction func onTapSignUp(_ sender: Any)
+    {
         self.performSegue(withIdentifier:"signUpSegue", sender: nil)
     }
+    
     @IBAction func dismissKeyboard(_ sender: Any)
     {
         self.view.endEditing(true)
+    }
+    
+    func registerForTextFieldNotifications()
+    {
+        NotificationCenter.default.addObserver(self, selector: #selector(textFieldDidChange), name:UITextField.textDidChangeNotification, object: nil)
     }
     
     func registerForKeyboardNotifications()
     {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillBeHidden), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc func textFieldDidChange()
+    {
+        if let usernameTextCount = self.usernameField.text?.count, let passwordTextCount = self.passwordField.text?.count {
+            if (usernameTextCount > 0 && passwordTextCount > 0) {
+                self.logInButton.isEnabled = true
+            }
+            else {
+                self.logInButton.isEnabled = false
+            }
+        }
+        else {
+            self.logInButton.isEnabled = false
+        }
     }
     
     @objc func keyboardWillShow(aNotification: NSNotification)
@@ -56,22 +79,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     {
         let username = self.usernameField.text!
         let password = self.passwordField.text!
-    }
-    
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool
-    {
-        if let usernameTextCount = self.usernameField.text?.count, let passwordTextCount = self.passwordField.text?.count {
-            if (usernameTextCount > 1 && passwordTextCount > 1) {
-                self.logInButton.isEnabled = true
-            }
-            else {
-                self.logInButton.isEnabled = false
-            }
-        }
-        else {
-            self.logInButton.isEnabled = false
-        }
-        return true
+        
     }
     
     func showAlert(error: NSError)

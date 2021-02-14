@@ -21,7 +21,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         self.setUpViewController()
-        self.registerForKeyboardNotifications()
+        self.registerForTextFieldNotifications()
     }
     
     func setUpViewController()
@@ -40,7 +40,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         self.createBottomTextFields(textfield: emailField)
     }
     
-    func registerForKeyboardNotifications()
+    func registerForTextFieldNotifications()
     {
         NotificationCenter.default.addObserver(self, selector: #selector(textfieldDidChange), name:UITextField.textDidChangeNotification, object: nil)
     }
