@@ -21,6 +21,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         self.registerForKeyboardNotifications()
     }
     
+    @IBAction func onTapSignUp(_ sender: Any) {
+        self.performSegue(withIdentifier:"signUpSegue", sender: nil)
+    }
     @IBAction func dismissKeyboard(_ sender: Any)
     {
         self.view.endEditing(true)
