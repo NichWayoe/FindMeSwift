@@ -320,7 +320,7 @@
                         <outlet property="passwordField" destination="Wen-AL-l0p" id="ANJ-xc-pca"/>
                         <outlet property="scrollView" destination="YtY-jz-lf6" id="nCn-k3-cXw"/>
                         <outlet property="usernameField" destination="bea-Za-jpz" id="z7Q-Ma-tLS"/>
-                        <segue destination="eF8-Tw-xbK" kind="show" identifier="HomeSegue" id="j5t-Tj-7Hk"/>
+                        <segue destination="eF8-Tw-xbK" kind="show" identifier="homeSegue" id="j5t-Tj-7Hk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yqS-Lg-jSN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

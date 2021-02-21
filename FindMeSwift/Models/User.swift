@@ -21,6 +21,4 @@ class User {
         self.firstName = userDetails["firstName"]!
         self.lastName = userDetails["lastName"]!
     }
-    
-
 }

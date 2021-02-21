@@ -57,13 +57,23 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func onTapNext(_ sender: Any)
     {
-        //        let userDetails = [
-        //            "username": self.usernameField.text!,
-        //            "fistName": self.firstNameField.text!,
-        //            "lastName": self.lastNameField.text!,
-        //            "password": self.passwordField.text!,
-        //        ]
-        ////        let user = User(userDetails: userDetails)
+        let userDetails = [
+            "username": self.usernameField.text!,
+            "firstName": self.firstNameField.text!,
+            "email": self.emailField.text!,
+            "lastName": self.lastNameField.text!,
+            "password": self.passwordField.text!,
+        ]
+        let user = User(userDetails: userDetails)
+        DatabaseManager.saveUser(user: user) { (error, success) in
+            if (error != nil) {
+                SignUpAlerts.showSignUpFailureAlert(on: self, with: "Sign Up failed", error: error)
+            }
+            else {
+                return
+            }
+        }
+        
     }
     
     func createBottomTextFields(textfield: UITextField)
@@ -73,10 +83,5 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         bottomLine.backgroundColor = UIColor.init(red: 48/255, green: 173/255, blue: 99/255, alpha: 1).cgColor
         textfield.borderStyle = .none
         textfield.layer.addSublayer(bottomLine)
-    }
-    
-    func showAlert(error: NSError)
-    {
-        
     }
 }

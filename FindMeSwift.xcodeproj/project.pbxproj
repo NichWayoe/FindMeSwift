@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0128B625E1BA2700E67E60 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0128B525E1BA2700E67E60 /* Alert.swift */; };
+		2B0128BE25E1BF1200E67E60 /* LoginAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0128BD25E1BF1200E67E60 /* LoginAlerts.swift */; };
+		2B0128C325E1F77400E67E60 /* SignUpAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0128C225E1F77400E67E60 /* SignUpAlerts.swift */; };
 		2B99ED88259E3D7A0096C025 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99ED87259E3D7A0096C025 /* User.swift */; };
 		2B99ED9F259E780A0096C025 /* DatabaseMangager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99ED9E259E780A0096C025 /* DatabaseMangager.swift */; };
 		2BA55B5F253251AC003AD51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA55B5E253251AC003AD51F /* AppDelegate.swift */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		130F2A7B99D71B5982C94BFF /* Pods-FindMeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMeSwift.release.xcconfig"; path = "Target Support Files/Pods-FindMeSwift/Pods-FindMeSwift.release.xcconfig"; sourceTree = "<group>"; };
 		15FF62A1924ECB71D47FFB21 /* Pods-FindMeSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMeSwift.debug.xcconfig"; path = "Target Support Files/Pods-FindMeSwift/Pods-FindMeSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2B0128B525E1BA2700E67E60 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2B0128BD25E1BF1200E67E60 /* LoginAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAlerts.swift; sourceTree = "<group>"; };
+		2B0128C225E1F77400E67E60 /* SignUpAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAlerts.swift; sourceTree = "<group>"; };
 		2B99ED87259E3D7A0096C025 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2B99ED9E259E780A0096C025 /* DatabaseMangager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseMangager.swift; sourceTree = "<group>"; };
 		2BA55B5B253251AC003AD51F /* FindMeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,12 +103,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B99ED86259E3D530096C025 /* Modules */ = {
+		2B0128B425E1BA0C00E67E60 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				2B0128B525E1BA2700E67E60 /* Alert.swift */,
+				2B0128BD25E1BF1200E67E60 /* LoginAlerts.swift */,
+				2B0128C225E1F77400E67E60 /* SignUpAlerts.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		2B0128C725E1FC0A00E67E60 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2B99ED86259E3D530096C025 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				2B99ED87259E3D7A0096C025 /* User.swift */,
 			);
-			path = Modules;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		2B99ED92259E77640096C025 /* Parse Manager */ = {
@@ -138,8 +161,9 @@
 		2BA55B5D253251AC003AD51F /* FindMeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2B0128B425E1BA0C00E67E60 /* Alerts */,
 				2B99ED92259E77640096C025 /* Parse Manager */,
-				2B99ED86259E3D530096C025 /* Modules */,
+				2B99ED86259E3D530096C025 /* Models */,
 				2BA55B91253251EB003AD51F /* View Controllers */,
 				2BA55B5E253251AC003AD51F /* AppDelegate.swift */,
 				2BA55B60253251AC003AD51F /* SceneDelegate.swift */,
@@ -172,6 +196,7 @@
 		2BA55B91253251EB003AD51F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2B0128C725E1FC0A00E67E60 /* DataSource */,
 				2BA55BE6253BAF2F003AD51F /* LoginViewController.swift */,
 				2BDD9C49258DA368006F69A2 /* SignUpViewController.swift */,
 			);
@@ -475,12 +500,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0128BE25E1BF1200E67E60 /* LoginAlerts.swift in Sources */,
 				2BA55BE7253BAF2F003AD51F /* LoginViewController.swift in Sources */,
 				2BA55B5F253251AC003AD51F /* AppDelegate.swift in Sources */,
 				2BDD9C4A258DA368006F69A2 /* SignUpViewController.swift in Sources */,
+				2B0128C325E1F77400E67E60 /* SignUpAlerts.swift in Sources */,
 				2B99ED88259E3D7A0096C025 /* User.swift in Sources */,
 				2B99ED9F259E780A0096C025 /* DatabaseMangager.swift in Sources */,
 				2BA55B61253251AC003AD51F /* SceneDelegate.swift in Sources */,
+				2B0128B625E1BA2700E67E60 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
